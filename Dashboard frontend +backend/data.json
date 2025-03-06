@@ -1,0 +1,3257 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 18,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10023",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10023",
+      "key": "SCRUM-19",
+      "fields": {
+        "statuscategorychangedate": "2025-03-03T19:44:08.757+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2025-03-04T20:37:44.731+0530",
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-19/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-03-03T19:44:08.368+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0004v:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-03T19:44:08.928+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10001",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "UI enhancements, focusing on improving the overall design and user experience.",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-19/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10022",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10022",
+      "key": "SCRUM-18",
+      "fields": {
+        "statuscategorychangedate": "2025-03-03T19:43:39.071+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2025-03-04T20:37:59.904+0530",
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-18/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-03-03T19:43:38.672+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0004n:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-03T19:43:39.266+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10001",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "JavaScript concepts to improve API handling and UI functionality.",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-18/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10021",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10021",
+      "key": "SCRUM-17",
+      "fields": {
+        "statuscategorychangedate": "2025-03-03T19:43:03.080+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-17/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-03-03T19:43:02.741+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0004f:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-03T19:43:03.268+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10001",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Jira APIs in Postman to validate responses and identify necessary integrations",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-17/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10020",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10020",
+      "key": "SCRUM-16",
+      "fields": {
+        "statuscategorychangedate": "2025-03-03T19:42:28.341+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-16/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": "2025-03-04T18:11:57.979+0530",
+        "created": "2025-03-03T19:42:27.968+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i00047:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-03T19:42:28.439+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Explored Jira’s documentation to understand how to fetch and display dashboard",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-16/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10019",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10019",
+      "key": "SCRUM-15",
+      "fields": {
+        "statuscategorychangedate": "2025-03-03T19:45:15.334+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2025-03-05T14:26:22.614+0530",
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-15/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:54:52.951+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "green",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i00023:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-05T14:26:24.641+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10001",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-02-27",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Javascript Revision",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-03-08",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-15/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10018",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10018",
+      "key": "SCRUM-14",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T17:50:30.089+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-14/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:50:29.838+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0003z:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T17:50:29.908+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Selenium",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-14/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10017",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10017",
+      "key": "SCRUM-13",
+      "fields": {
+        "statuscategorychangedate": "2025-03-04T18:11:08.476+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-13/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": "2025-03-04T18:11:09.036+0530",
+        "created": "2025-02-27T17:50:16.168+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0003r:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-04T18:11:08.475+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10001",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-03-02",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "React",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-03-03",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-13/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10016",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10016",
+      "key": "SCRUM-12",
+      "fields": {
+        "statuscategorychangedate": "2025-03-04T20:37:55.754+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_433326042_*|*_10001_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-03-04T20:37:55.750+0530",
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-12/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": "2025-03-05T14:26:31.260+0530",
+        "created": "2025-02-27T17:49:55.997+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0003j:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-03-05T14:26:30.319+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-02-27",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Jira",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-03-10",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-12/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10015",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10015",
+      "key": "SCRUM-11",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T17:49:45.406+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-11/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:49:45.165+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0003b:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T17:49:45.236+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Github",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-11/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10014",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10014",
+      "key": "SCRUM-10",
+      "fields": {
+        "statuscategorychangedate": "2025-02-28T16:58:12.559+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_83313456_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-28T16:58:12.553+0530",
+        "workratio": -1,
+        "lastViewed": "2025-02-28T16:58:13.884+0530",
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-10/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:49:39.103+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "blue",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i00033:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-28T16:58:12.559+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-02-28",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Sonarqube",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-02-28",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-10/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10013",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10013",
+      "key": "SCRUM-9",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T17:49:17.720+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-9/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:49:17.423+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0002v:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T17:49:17.510+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Swagger",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-9/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10012",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10012",
+      "key": "SCRUM-8",
+      "fields": {
+        "statuscategorychangedate": "2025-02-28T16:58:06.465+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_83337579_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-28T16:58:06.460+0530",
+        "workratio": -1,
+        "lastViewed": "2025-02-28T16:58:06.657+0530",
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-8/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:49:08.885+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0002n:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-28T16:58:06.464+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-02-28",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "J-Unit",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-02-28",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-8/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10011",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10011",
+      "key": "SCRUM-7",
+      "fields": {
+        "statuscategorychangedate": "2025-02-28T16:57:52.303+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_83341165_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-28T16:57:52.299+0530",
+        "workratio": -1,
+        "lastViewed": "2025-02-28T16:57:52.588+0530",
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-7/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-27T17:48:51.138+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0002f:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-28T16:57:52.303+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-02-27",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Assignment 2",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-02-27",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-7/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10010",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10010",
+      "key": "SCRUM-6",
+      "fields": {
+        "statuscategorychangedate": "2025-02-28T16:57:19.217+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "e286a338-706e-4bab-9b3f-80fed7fc4a7e",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_83323858_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-28T16:57:19.212+0530",
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-6/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": "2025-02-28T16:57:19.517+0530",
+        "created": "2025-02-27T17:48:35.358+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": "purple",
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i00027:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-28T16:57:19.216+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": "2025-02-27",
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Assignment 1",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-02-27",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-6/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10009",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10009",
+      "key": "SCRUM-5",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T17:41:51.536+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_26863482_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-27T17:41:51.531+0530",
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-5/watchers",
+          "watchCount": 0,
+          "isWatching": false
+        },
+        "lastViewed": "2025-02-27T17:41:41.279+0530",
+        "created": "2025-02-27T10:14:08.054+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0001z:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T17:41:51.536+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "4 pm - 6pm Javascript Practise",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-5/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10007",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10007",
+      "key": "SCRUM-3",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T17:42:12.259+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_14568673_*|*_10001_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-27T17:42:12.255+0530",
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-3/watchers",
+          "watchCount": 0,
+          "isWatching": false
+        },
+        "lastViewed": "2025-02-27T17:42:12.327+0530",
+        "created": "2025-02-27T10:12:49.724+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0001j:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T17:42:12.259+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "12 pm - 1 pm Javascript Revision - reading w3 school basics",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-3/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10006",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10006",
+      "key": "SCRUM-2",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T12:35:55.883+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_555_*|*_10001_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-27T12:35:55.877+0530",
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-2/watchers",
+          "watchCount": 0,
+          "isWatching": false
+        },
+        "lastViewed": "2025-02-27T17:29:30.157+0530",
+        "created": "2025-02-27T10:11:37.680+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0001b:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T17:29:22.384+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "10 am - 12 pm Abdul Bari Java course Section 17 - Section 24",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-2/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10005",
+      "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/10005",
+      "key": "SCRUM-1",
+      "fields": {
+        "statuscategorychangedate": "2025-02-27T00:22:34.490+0530",
+        "issuetype": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "ca2c58e4-12ce-4fd8-a647-cfa8c6d814b1",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "SCRUM",
+          "name": "My Scrum Project",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "24x24": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=small",
+            "16x16": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+            "32x32": "https://aapurvaapatil.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_25557071_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-27T00:22:34.484+0530",
+        "workratio": -1,
+        "watches": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-1/watchers",
+          "watchCount": 0,
+          "isWatching": false
+        },
+        "lastViewed": "2025-02-27T00:22:26.639+0530",
+        "created": "2025-02-26T17:16:37.419+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i00013:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-27T00:22:34.490+0530",
+        "status": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://aapurvaapatil.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://aapurvaapatil.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Story Board - Issue comment flow",
+        "creator": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/user?accountId=712020%3A07274681-c102-4311-9d2c-ff51d22f8b25",
+          "accountId": "712020:07274681-c102-4311-9d2c-ff51d22f8b25",
+          "emailAddress": "aapurvaapatil@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:07274681-c102-4311-9d2c-ff51d22f8b25/4440356d-136f-4ced-89fa-21d9a1f126bf/32"
+          },
+          "displayName": "apurva",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://aapurvaapatil.atlassian.net/rest/api/2/issue/SCRUM-1/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    }
+  ]
+}
